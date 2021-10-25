@@ -1,0 +1,171 @@
+/*****************************TAG SELECTORS**************************/
+body
+{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif; /* NOTE: Fallback fonts (if client dont have this font it go to next font from left to right) */
+}
+
+div
+{
+  background-color: #f1f6f9;
+  text-align: center;
+}
+
+h1
+{
+  font-size: 6.25rem; /* NOTE:100% =16px =1em */
+  margin:50px auto 0 auto;
+  font-family: 'Sacramento',fantasy;
+  color: #1f6f8b;
+}
+
+h2
+{
+  font-size: 1.75rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #1f6f8b;
+  font-weight: normal;
+}
+
+h3
+{
+  color:#46b3e6;
+  font-family: 'Montserrat', sans-serif;
+  /* margin:30px; */
+}
+
+hr{
+  border-style:dotted none none;
+  border-color:#99a8b2;
+  border-width:10px;
+  width:8%;
+  margin: 0 auto 0 auto;
+}
+
+.BUTTON_NVW {
+   background: #46b3e6;
+   background-image: -webkit-linear-gradient(top, #46b3e6, #46b3e1);
+   background-image: -moz-linear-gradient(top, #46b3e6, #46b3e1);
+   background-image: -ms-linear-gradient(top, #46b3e6, #46b3e1);
+   background-image: -o-linear-gradient(top, #46b3e6, #46b3e1);
+   background-image: -webkit-gradient(to bottom, #46b3e6, #46b3e1);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   font-size: 20px;
+   font-weight: 200;
+   padding: 19px;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin:30px auto 30px auto;
+}
+
+.BUTTON_NVW:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+/*****************************CLASS SELECTORS**************************/
+
+.top_container
+{
+  background-color: #f1f6f9;
+  position: relative;        /*NOTE :this container became a relative "father" */
+  padding-top: 100px;        /* NOTE: spacing from top by 100px */
+}
+
+.middle_container
+{
+
+}
+
+.bottom_container
+{
+background-color: #46b3e6;
+}
+
+.top-cloud            /* NOTE: this class is relative to the top_container */
+{
+  width:150px;
+  height:100px;
+  position:absolute;  /* NOTE: The element is positioned relative to its first positioned (not static) ancestor element */
+  right:250px;        /* NOTE: Changing its position to the eight by 250px */
+  top:50px;           /* NOTE: same to the top by 50px */
+
+}
+
+.bottom-cloud
+{
+  width:150px;
+  height:100px;
+  position: absolute;
+  left:200px;
+  bottom:600px;
+}
+.my-photo
+{
+  margin-top: 50px;
+}
+
+.skill-row
+{
+  width: 50%;
+  margin:100px 300px 100px 400px;
+  text-align: left;
+  line-height: 2;
+}
+
+.script-img
+{
+  margin-right: 250px;
+  width:25%;
+  float:left;
+}
+
+.python-part
+{
+  margin-right:300px;
+  margin-bottom: 20px;
+  width:20%;
+  float:left;
+}
+
+.Web-Lan
+{
+  margin:30px 30px auto auto ;
+  width: 30%;
+  float: left;
+}
+
+.React
+{
+  margin:30px 0px auto 0px;
+  width: 12%;
+  float:left;
+}
+
+.socialmedia
+{
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+.footer-link
+{
+  margin-top:30px ;
+}
