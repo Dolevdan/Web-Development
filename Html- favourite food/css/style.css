@@ -1,0 +1,47 @@
+/*************************TAG SELECTOTRES***************/
+body{
+  background-color:#E7DEC8;
+}
+hr{
+  border-style:dotted none none;
+  border-color:#FAF3DD;
+  border-width:5px;
+  width:8%;
+}
+h1
+{
+  color: #DE4463;
+  font-size: 250%;
+}
+
+h2
+{
+  color: #DE4463;
+}
+img
+{
+  background-color:red;
+}
+img:hover
+{
+  background:#FAF3A3;
+}
+
+h3{
+  color: #66BFBF;
+}
+/*************************CLASS SELECTOTRES***************/
+
+.pizza
+{
+  background-color: green;
+}
+
+.bacon
+{
+  background-color: red;
+}
+.ciruclar
+{
+  border-radius: 100%;
+}
